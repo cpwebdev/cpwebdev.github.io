@@ -1,0 +1,81 @@
+body {
+	font-family: Cabin;
+}
+h1, h1 + p {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#container div {
+	background: #cdd2d8;
+	line-height: 40px;
+	font-size: 15px;	
+}
+
+.table {
+	display: inline-block;
+	width: 40%;
+}
+
+.hidden {
+	display: none;
+}
+
+
+#container p {
+	color: white;
+	margin: 0;
+	padding-left: 15px;
+	font-size: 25px;
+	background: #75787c;
+}
+
+#container input {
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	padding-left: 15px;
+	font-size: 15px;
+	background: none;
+	margin: 0;
+	height: 40px;
+}
+
+#container input:focus {
+	border: 1px solid #75787c;
+}
+
+#container ul {
+	margin: 0;
+	list-style: none;
+	padding: 0px 0px 0px 15px;
+}
+
+#container li {
+	margin: 0px;
+	padding: 0px;
+}
+
+#container li:hover span {
+	width: 50px;
+	opacity: 1.0;
+}
+#container li span {
+	color: #75787c;
+	width: 0px;
+	display: inline-block;
+	opacity: 0;
+}
+
+#container li span:hover {
+	color: red;
+}
+
+
+
