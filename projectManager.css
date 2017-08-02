@@ -14,7 +14,8 @@ h1, h1 + p {
 #container div {
 	background: #cdd2d8;
 	line-height: 40px;
-	font-size: 15px;	
+	font-size: 15px;
+	float: top;	
 }
 
 .table {
@@ -33,6 +34,7 @@ h1, h1 + p {
 	padding-left: 15px;
 	font-size: 25px;
 	background: #75787c;
+	cursor: default;
 }
 
 #container input {
@@ -55,6 +57,7 @@ h1, h1 + p {
 	margin: 0;
 	list-style: none;
 	padding: 0px 0px 0px 15px;
+	cursor: default;
 }
 
 #container li {
